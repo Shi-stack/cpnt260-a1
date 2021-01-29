@@ -1,0 +1,155 @@
+/* Basic CSS Rules*/
+/* Basic reset for body*/
+body{
+  background-color: #DAA520 ;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Tried to put background Image.. but it didnt work.. will try in next project */
+/*body{
+  margin: 0px;
+  padding:0px;
+  background-image: url("https://images.unsplash.com/photo-1537498425277-c283d32ef9db?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1057&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position:relative;
+  width: 85%;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  object-fit: fill;
+  
+}/* 
+
+/* Basic Unorder List ul*/
+ul{
+  list-style: none;
+}
+
+/* Basic anchor tags */
+a{
+  text-decoration: none;
+}
+
+/*--------------------------------------------------------*/
+
+/* Header */
+/* Logo*/
+.logo{
+  width: 200px;
+}
+
+/** h1 **/
+.h1{
+  
+}
+/* Section */
+section{
+  width: 80%;
+  margin:auto;
+ 
+}
+
+/* design menu */
+li *{
+  padding=0;
+  margin=0;
+  font-family: 'Righteous', cursive,sans serif;
+  font-size: 1.5rem;
+  color: black;   
+  }
+  
+  /*design button*/
+  
+  .button{
+    border-radius: 50px;
+    background-color:	#FFFFE0;
+    box-shadow: 10px 5px 5px #ECAF25;
+  }
+  
+  /* making menu flex */
+  
+  .menu *{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    padding: 0.1rem;
+  }
+
+  /** hover menu */
+  .menu> ul> * a:hover {
+  background-color: #EFD69F;
+  }
+
+  /** active **/
+  .menu> ul> * a:active {
+    background-color: deeppink;
+    text-decoration: underline;
+    }
+
+  
+  /* Header flex and style */
+img {
+  padding:0;
+  margin:0;
+  width: 200px;  
+  align-content: left;
+}
+
+h1{
+  color: black;
+  text-decoration: wavy;
+  text-decoration-color:#15A0A6 ;
+  font-size: 4rem;
+  font-family: 'Oleo Script',cursive, sans serif;
+}
+
+ /** Making header flex **/
+.header{
+  display:flex; 
+  flex-wrap: wrap;
+  justify-content:start;
+
+}
+
+/*design first paragraph*/
+
+.first {
+  font-family: 'Satisfy', cursive;
+    /*width:95ch;  this function is not working */
+    color: black;
+    font-size: 35px;
+    text-align:center;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+  }
+
+/*.first {
+ display:flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+} */
+/* footer design */
+
+footer{
+  box-sizing: content-box;
+  border: 0.5rem;
+  font-family: 'Oleo Script',cursive, sans serif;
+  font-size: 20px;
+  color: black;
+  text-align:center;
+  height: 50px;
+  /*position:absolute;
+  bottom: 0px;*/
+  
+  
+  }
+
+
+  /* Gallery formate */
+
+  
