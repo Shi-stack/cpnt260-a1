@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery</title>
+<link rel="stylesheet" href="style.css">
+<style>
+  body{
+    background-color: #DAA520;
+    margin:0; 
+    padding:0;
+    
+  }
+  .gallery *{
+    text-align:justify;
+    width: auto;
+    height:700px;
+    border: 0.5rem;
+    
+  }
+  /*.new{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:20px;
+  } */
+    .new {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    }
+
+</style>
+</head>
+<!-- Just coping header section-->
+<!---- Header ---->
+<section class="heading">
+  <nav class="header">
+  <!---- Logo---->
+  <img class= "logo" src="https://www.freelogodesign.org/file/app/client/thumb/33fa7f00-cf2b-4e80-950a-7f7b28c7c0cf_1000x600-watermark.png?20210125" alt="Roshiv Tech Logo">
+  <!--- Heading H1----> 
+  <!-- Font style--->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&family=Righteous&display=swap" rel="stylesheet">
+  <h1>Roshiv Tech Inc.</h1>
+  </nav>
+  </section>
+   <!--Menu portion starts here-->
+   <section class="menu">
+   <!--- adding google fonts--->
+   <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <ul>
+      <li> <a href="index.html">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#"> Login </a></li>
+      <li><a href="#"> Register </a></li>
+      <li><a href="https://www.linkedin.com/feed/"><button class="button">Contact Us</button></a></li>
+    </ul>
+  </section>
+
+<body>
+<section class= "new">
+<div class="gallery">
+<img src="images/design 2.jpg" alt="Design2">
+<br>
+<img src="images/design1.jpg" alt="Design1">
+</div>
+</section>
+
+<!--Footer-->
+
+<!---<section class="footer">
+  <div>
+<footer> By Shivani &copy MIT Licence  Dated: 2021/01/29
+<!-<input type="date" value="2021-01-29">--->
+<!--</footer> </div>
+</section>---->
+</body>
+</div>
+</html>
